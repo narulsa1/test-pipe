@@ -7,4 +7,9 @@ pipeline {
                                 }
               }
       }
+    post {
+            sucess {
+              echo 'This stage is successful.'
+            }
+
 }
