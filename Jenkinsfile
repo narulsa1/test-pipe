@@ -9,12 +9,12 @@ pipeline {
           stage ('Test') {
               steps {
                   sh 'curl -I http://192.168.1.56'
-      }
-          }
-    post {
+                                }
+              }
+      post {
             sucess {
               echo 'This stage is successful.'
-            }
-    }
+                             }
+       }
 
 }
