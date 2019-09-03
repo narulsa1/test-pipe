@@ -10,6 +10,7 @@ pipeline {
               steps {
                   sh 'curl -I http://192.168.1.56'
       }
+          }
     post {
             sucess {
               echo 'This stage is successful.'
