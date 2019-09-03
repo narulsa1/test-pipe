@@ -11,6 +11,11 @@ pipeline {
                   sh 'curl -I http://192.168.1.56'
               }
           }
+          stage ('Deploy') {
+              steps {
+                  sh 'echo "Deployed"'
+              }
+          }
       }
       post {
           success {
