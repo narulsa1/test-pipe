@@ -3,7 +3,7 @@ pipeline {
       stages {
           stage ('build') {
               steps {
-                  sh 'echo "Hello World!!! This is my first pipeline" > /var/www/html/index.html'
+                  sh 'echo "Hello World!!! This is my first pipe" > /var/www/html/index.html'
                                 }
               }
       }
