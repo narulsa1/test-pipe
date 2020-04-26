@@ -8,7 +8,7 @@ pipeline {
           }
           stage ('Test') {
               steps {
-                  sh 'curl -I http://192.168.1.56'
+                  sh 'curl -I http://192.168.225.56'
               }
           }
           stage ('Deploy') {
